@@ -16,24 +16,23 @@ class BookDisplay extends Component {
   render() {
     return (
       <>
-
       <div class="card">
- <img src={profile.src} alt=''></img>
-  <div class="container">
-  <h2>{profile.name}</h2>
-  <p>{profile.date}</p>
-  <p>{profile.pages}</p>
-  <p>{profile.author}</p>
-  <p>{profile.genre}</p>
-  <p>{profile.garri}</p>
-  </div>
-</div>
-
-
+          <div>
+            <img src={profile.src} alt=''></img>
+          </div>
+          <div class="container">
+            <h2>{profile.name}</h2>
+            <p>{profile.date}</p>
+            <p>{profile.pages}</p>
+            <p>{profile.author}</p>
+            <p>{profile.genre}</p>
+            <p>{profile.garri}</p>
+          </div>
+      </div>
       <hr></hr>
       </>
-      );
-    }
+    );
+  }
 }
 
 export default BookDisplay;
