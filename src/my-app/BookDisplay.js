@@ -10,6 +10,7 @@ const profile = {
   garri:' Про книгу : Гаррі Поттер і прокляте дитя» — пєса в двох частинах британської письменниці Джоан Роулінг; написана в співавторстві зі сценаристом Джеком Торном і режисером Джоном Тіффані.',
   author: 'Автор Джуан Роулінг', 
   src: 'https://upload.wikimedia.org/wikipedia/uk/f/fe/HP_and_the_Cursed_Child_UKR.png',
+ 
 }; 
                         
 class BookDisplay extends Component {
